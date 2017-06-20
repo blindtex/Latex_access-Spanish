@@ -1,0 +1,39 @@
+#!/usr/bin/python
+'''Script to translate lines of laTeX from stdin to nemeth braille and speech in stdout.'''
+
+
+import sys
+import latex_access.speech as speech
+import latex_access.settings as settings
+import os
+
+s=speech.speech()
+b=''
+filename = ''
+
+if len(sys.argv) > 1:
+    filename = os.path.expanduser(sys.argv[1])
+    if not os.path.exists(filename):
+        print("Config file you specified doesn't exist, continuing anyway with defaults.")
+        filename=''
+
+def activateSettings ():
+    """Activate the latex-access settings stored in file.
+
+    Consult the actual function definition in settings.py for details
+    and documentation."""
+    global b # handle to the braille translator 
+    settings.loadSettings (os.path.expanduser(filename))
+    b=settings.brailleTableToUse ()
+    return settings.activateSettings ({"braille":b, "speak":s})
+
+activateSettings ()
+
+while True:
+    input = sys.stdin.readline()
+    output=b.translate(input)
+    print(output)
+
+    output=s.translate(input)
+    print(output)
+    

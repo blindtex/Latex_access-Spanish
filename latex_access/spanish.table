@@ -1,0 +1,164 @@
+; Basic arithmetic functions
++ más
+- menos
+< menos que
+;También menor que
+= igual
+> mayor que
+\times por
+;También producto
+\div dividido por
+\pm más o menos
+\leq  menor o igual que
+\le menor o igual que
+\geq  mayor o igual que
+\ge  mayor o igual que
+\equiv equivalente
+\approx aproximadamente igual a
+\sim asintótico a
+\neq no igual
+\ne no igual
+\ll menor que menor que
+\gg mayor que mayor que
+\pm más o menos
+\mp menos o más
+\leftrightarrow  si y solo si
+;Puede ser otra cosa
+\Rightarrow  hacia
+\rightarrow  hacia
+\to va hacia
+\Leftrightarrow si y solo si 
+\longrightarrow  va hacia
+\longleftrightarrow  si y solo si
+\wedge  y
+\vee o
+\lnot no
+;negación
+\not no
+\neg no
+\propto  proporcional a
+\min mínimo
+\max máximo
+\lfloor piso izquierdo
+\rfloor piso derecho
+
+; trigonometric and hyperbolic functions
+\tanh  tangente hiperbólica
+\tan tangente
+\arctan arco tangente
+\sinh  seno hiperbólico
+\sin  sebo
+\arcsin arco seno
+\cosh  coseno hiperbólico
+\cos  coseno
+\arccos arco coseno
+
+; capital greek letters
+\Alpha  alfa mayúscula
+\Beta  beta mayúscula
+\Gamma   gamma mayúscula
+\Delta   delta mayúscula
+\Epsilon  épsilon mayúscula
+\Zeta  dzita mayúscula
+\Eta   ita mayúscula
+\Theta  theta mayúscula
+\Iota  iota mayúscula
+\Kappa  kappa mayúscula
+\Lambda  lambda mayúscula
+\Mu  mi mayúscula
+\Nu  ni mayúscula
+\Xi  xi mayúscula
+\Omicron  omicron mayúscula
+\Pi  pi mayúscula
+\Rho  rho mayúscula
+\Sigma  sigma mayúscula
+\Tau  tau mayúscula
+\Upsilon  ípsilon mayúscula
+\Phi  fi mayúscula
+\Psi  psi mayúscula
+\Chi  chi mayúscula
+\Omega  omega mayúscula
+
+; small greek letters
+\alpha  alpha
+\beta  beta
+\gamma  gamma
+\delta  delta
+\epsilon  épsilon
+\zeta  dseta
+\eta   ita
+\theta  theta
+\iota  iota
+\kappa  kappa
+\lambda  lambda
+\mu  mi
+\nu  ni
+\xi  xi
+\omicron  ómicron
+\pi  pi
+\varpi var pi
+\rho  rho
+\sigma  sigma
+\tau  tau
+\upsilon  ípsilon
+\phi  phi
+\psi  psi
+\chi  chi
+\omega  omega
+
+\varphi var phi
+\vartheta var theta
+\varepsilon var épsilon
+
+
+; set theory
+\setminus menos conjunto
+\cap  intersección
+\triangleleft  subgrupo normal
+\therefore  por tanto
+\supseteq  super conjunto o igual
+\supset  super conjunto 
+\subseteq  subconjunto o igual
+\subset  subconjunto
+\in  en
+\notin no en
+\ni no en
+\forall  para todo
+\exists existe
+\emptyset  conjunto vacío
+\cup  unión
+\lim  límite
+\{ abre llave
+\} cierra llave
+; standard LaTeX commands for better reading
+\cdot  punto
+\cdots  puntos suspensivos
+\right 
+\quad 
+\qquad 
+\left 
+\ldots  puntos suspensivos
+\dots  puntos suspensivos
+\;  
+\,  
+\!  
+\:  
+\textbackslash \
+\textdegree grados
+
+; calculus
+\partial  parcial
+\nabla  nabla
+\oint integral de contorno
+
+; special characters
+\infty  infinito
+\perp perpendicular
+; Probability and permutations
+
+\Pr probabilidad de
+\choose combinación de
+\Choose combinación de
+
+
+
